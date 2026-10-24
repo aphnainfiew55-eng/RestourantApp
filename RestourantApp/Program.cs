@@ -14,3 +14,12 @@ namespace RestourantApp
         }
     }
 }
+class Restaurant
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Cuisine { get; set; }
+    public double Rating { get; set; }
+
+}  
+
